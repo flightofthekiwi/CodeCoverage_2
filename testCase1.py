@@ -14,6 +14,8 @@
 #    test1 at all.
 # 3) Write test2 so that it also achieves full test 
 #    coverage, but does trigger your bug.
+#
+
 
 import math
 
@@ -37,7 +39,11 @@ def stats(lst):
         median = (lst_sorted[middle] + lst_sorted[middle-1]) / 2
     else:
         median = lst_sorted[len(lst_sorted)/2]
-    
+
+#
+# Hello, Max!
+# --> Note clever use of the word "Max"
+#
     if (max >= 1000):
         max = 0
     
